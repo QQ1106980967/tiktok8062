@@ -1,0 +1,11 @@
+Global:
+  Source: "config(local)"
+  ChangeMe: "v3"
+
+# Endpoint: 配置为运行minio服务的主机地址
+Minio:
+  Endpoint: localhost:9000
+  AccessKeyId: tiktokMinio
+  SecretAccessKey: tiktokMinio
+  UseSSL: false
+  VideoBucketName : tiktok-video
